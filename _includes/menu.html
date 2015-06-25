@@ -3,7 +3,7 @@
 <ul class="topnav">
 {% assign url = page.url | remove: 'index.html' %}
 {% for node in pages %}
-  {% assign nodeurl = node.url | remove: 'index.html' %}
-  <li{% if url == nodeurl %} class="here"{% endif %}><a href="{{nodeurl}}" title="">{{node.title}}</a></li>
+  {% assign node_url = node.url | remove: 'index.html' %}
+  <li{% if url == node_url %} class="here"{% endif %}><a href="{{node_url}}" title="">{% if node.menu_title %}{{ node.menu_title }}{% else %}{{ node.title }}{% endif %}</a></li>
 {% endfor %}
 </ul>
