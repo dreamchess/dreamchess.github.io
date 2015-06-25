@@ -132,3 +132,8 @@ div.dropmenu li.here a {
 div.dropmenu a:hover {
 	background-color: #c3d4dF;
 }
+
+div.pagination {
+	text-align: center;
+	margin: 20px 0;
+}
