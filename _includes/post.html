@@ -1,5 +1,6 @@
+{% assign author = site.data.authors[post.author] %}
 <div class="ditto_item">
 	<h3 class="ditto_pageTitle"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-	<div class="ditto_documentInfo">by <strong>{{ post.author }}</strong> on {{ post.date | date_to_string }}</div>
+	<div class="ditto_documentInfo">by <strong>{% if author and author.name %}{{ author.name }}{% else %}Anonymous{% endif %}</strong> on {{ post.date | date_to_string }}</div>
 	<div class="ditto_introText"><p>{{ post.excerpt }}</p>
 </div>

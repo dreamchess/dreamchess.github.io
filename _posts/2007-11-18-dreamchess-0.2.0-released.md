@@ -1,6 +1,6 @@
 ---
 title: DreamChess 0.2.0 released
-author: Walter van Niftrik
+author: walter
 ---
 Over a year has passed since the first release, and we are now happy to present DreamChess 0.2.0. DreamChess is a 3D chess game for Windows, Mac OS X and Linux. The new release can be downloaded from our website at http://www.dreamchess.org.
 

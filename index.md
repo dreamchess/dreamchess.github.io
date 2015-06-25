@@ -2,8 +2,6 @@
 title: Home
 weight: 0
 ---
-{% include menu.html %}
-
-{% for post in site.posts limit:500 %}
+{% for post in site.posts limit: 5 %}
 {% include post.html %}
 {% endfor %}  

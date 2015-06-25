@@ -1,6 +1,6 @@
 ---
 title: DreamChess 0.2.1 release candidate 1 now available
-author: Walter van Niftrik
+author: walter
 ---
 DreamChess 0.2.1 release candidate 1 is now available. We'd appreciate any reports about build errors or bugs, you can contact us at feedback AT dreamchess DOT org
 
