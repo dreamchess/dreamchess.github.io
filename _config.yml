@@ -1,0 +1,6 @@
+name: DreamChess
+
+defaults:
+  -
+    values:
+      layout: "default"

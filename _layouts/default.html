@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" /> 
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+	<link rel="stylesheet" href="css/dreamchess.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="assets/templates/dreamchess/poll.css" type="text/css" media="screen" />
+
+        <script src="manager/media/script/scriptaculous/prototype.js" type="text/javascript"></script>
+        <script src="manager/media/script/scriptaculous/scriptaculous.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="/assets/snippets/maxigallery/lightboxv2/css/lightbox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="/assets/snippets/maxigallery/lightboxv2/js/lightbox_setup.js"></script>
+	<script type="text/javascript" src="/assets/snippets/maxigallery/lightboxv2/js/lightbox_lang_en.js"></script>
+	<script type="text/javascript" src="/assets/snippets/maxigallery/lightboxv2/js/prototype.js"></script>
+	<script type="text/javascript" src="/assets/snippets/maxigallery/lightboxv2/js/scriptaculous.js?load=effects"></script>
+	<script type="text/javascript" src="/assets/snippets/maxigallery/lightboxv2/js/lightbox.js"></script>
+<link rel="stylesheet" href="/assets/snippets/maxigallery/css/default.css" type="text/css" media="screen" />
+</head>
+<body>
+<div id="pagewrapper">
+<div id="wrapper">
+<div id="header">
+<img id="headerimage" src="images/logo.png" alt="DreamChess" />
+</div>
+
+<div id="leftcolumn">
+<h3>Main Menu</h3>
+<div class="dropmenu">
+{% include menu.html %}
+</div>
+<h3>SourceForge Menu</h3>
+<div class="dropmenu"><ul class="topnav">
+<li><a href="project-home.html" title="">Project Home</a></li>
+<li class="last"><a href="bug-tracker.html" title="">Bug Tracker</a></li>
+</ul>
+</div>
+<img class="icon" width="100" height="100" alt="" src="images/softpedia_award.gif" />
+</div>
+
+<div id="centercolumn">
+<h2>{{ page.title }}</h2>
+{{ content }}
+</div>
+
+<div id="rightcolumn">
+
+<h3>Screenshot</h3>
+
+
+
+
+
+	
+		<div class="thumbscontainer">
+			<ul class="thumbs">
+				
+
+
+ 
+<li>
+
+
+ 
+
+	<a href="/assets/galleries/43/classic.png" rel="lightbox[maxigallery]" title=" - ">
+
+
+
+
+
+
+
+
+
+
+	
+	 	<img src="/assets/galleries/43/tn_classic.png" class="thumbnail" title="  &raquo; Click to zoom ->" alt="  &raquo; Click to zoom ->" />
+	
+	</a>
+	
+</li>
+
+			</ul>
+		</div>
+	
+
+
+
+	
+	
+
+		<div class="pagenumbers">
+	
+		<span style="float:right">
+		
+	
+			<a href="/home.html?page=2">next &raquo;</a> 
+	
+		
+		</span>
+		&laquo; previous
+		</div>
+	
+
+
+<div style="margin: 10px auto; width: 92px;">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+</form>
+</div>
+
+<h3>Poll</h3>
+
+				      <form name="pollvote" method="post" action="/home.html.html">
+				        <input type="hidden" name="poll_pollid" value="2" />
+				        <div class="poll">
+				          <div class="poll_container">
+				            <div class="poll_row_container poll_question">We plan to add network support for DreamChess 0.3.0. What kind of network support would you prefer?</div>
+				            <div><hr /></div>
+				
+				    
+								            <div class="poll_row_container">
+								                <input type="radio" name="poll_choice_id" 
+value="4" />
+
+								              FICS support
+								            </div>
+								            <div style="clear:both;"></div>
+								        
+								            <div class="poll_row_container">
+								                <input type="radio" name="poll_choice_id" 
+value="5" />
+
+								              Basic client-to-client networking
+								            </div>
+								            <div style="clear:both;"></div>
+								        
+								            <div class="poll_row_container">
+								                <input type="radio" name="poll_choice_id" 
+value="6" />
+
+								              Both of the above
+								            </div>
+								            <div style="clear:both;"></div>
+								        
+								            <div class="poll_row_container">
+								                <input type="radio" name="poll_choice_id" 
+value="7" />
+
+								              I don't care about network support
+								            </div>
+								            <div style="clear:both;"></div>
+								        
+				            <div><hr /></div>
+				            <div class="poll_row_container poll_question">
+				              <input type="submit" name="vote" value="Vote" class="vote" /><input type="submit" name="results" value="Results" class="vote" />
+				            </div>
+				          </div>
+				        </div>
+				      </form>
+				    
+</div>
+<div id="clear"></div>
+<div id="footer">
+	&copy; Copyright 2006-{{ 'now' | date: "%Y" }} - The DreamChess Project
+</div>
+
+</div>
+</div>
+</body>
+</html>

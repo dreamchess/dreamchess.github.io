@@ -1,0 +1,140 @@
+html {
+	background-color: #ccc;
+	color: #333;
+	font-family: sans-serif;
+	font-size: 75%;
+	padding: 10px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#header {
+	background-color: black;
+	text-align: center;
+}
+
+div#wrapper {
+	width: 972px;
+	margin: 0px auto;
+	border: 1px solid black;
+	background-color: white;
+}
+
+div#leftcolumn {
+	float: left;
+	width: 150px;
+	padding: 10px;
+}
+
+div#centercolumn {
+	float: left;
+	width: 612px;
+	padding: 10px;
+}
+
+div#rightcolumn {
+	float: left;
+	width: 150px;
+	padding: 10px;
+}
+
+div#footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+div#footer a:link, div#footer a:visited {
+	color: white;
+}
+
+div#clear {
+	clear: left;
+}
+
+img {
+	border-width: 0px;
+}
+
+img.icon {
+	display: block;
+	margin: 10px auto;
+}
+
+/* Header and menu styles taken from CMSMS template */
+h1 {
+	font-size: 2em;
+	line-height: 1em;
+	margin: 0;
+}
+
+h2 {
+	color: #294B5F; 
+	font-size: 1.5em; 
+	text-align: left; 
+	padding-left: 0.5em;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #385C72; 
+	border-left: 1.1em solid #385C72; 
+       line-height: 1.5em;
+	margin: 0 0 0.5em 0;
+}
+
+h3 {
+	color: #294B5f; 
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 0;
+}
+
+a:link, a:visited {
+	color: #294B5f; 
+}
+
+div.dropmenu ul {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+div.dropmenu li {
+	list-style: none;
+	margin: 0;
+	border-bottom: 1px solid #c0c0c0;
+	display: block;
+}
+
+/* Holly hack */
+* html div.dropmenu li a { height: 1%; } 
+* html div.dropmenu li hr { height: 1%; }
+
+div.dropmenu li.here {
+	padding: 0.5em 0.5em 0.5em 1.5em;
+	background: url(../images/arrow-right-active.gif) no-repeat 0.4em center; 
+	background-color: #385C72;
+	color: #fff;
+	min-height: 1em;
+}
+
+div.dropmenu a {
+	text-decoration: none;
+	display: block;
+	padding: 0.5em 0.5em 0.5em 1.5em;
+	color: #18507C;
+	background: url(../images/arrow-right.gif) no-repeat 0.5em center; 
+	min-height: 1em;
+}
+
+div.dropmenu li.here a {
+	padding: 0;
+	background: none;
+	background-color: #385C72;
+	color: #fff;
+	min-height: 1em;
+}
+
+div.dropmenu a:hover {
+	background-color: #c3d4dF;
+}

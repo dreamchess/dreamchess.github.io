@@ -1,0 +1,25 @@
+---
+title: DreamChess 0.2.0 released
+author: Walter van Niftrik
+---
+Over a year has passed since the first release, and we are now happy to present DreamChess 0.2.0. DreamChess is a 3D chess game for Windows, Mac OS X and Linux. The new release can be downloaded from our website at http://www.dreamchess.org.
+
+The main new feature is sound support. Matthew P. Smith was kind of enough to allow us to use some of his songs in the game. The music pack containing these songs is available for download from our website.
+
+Graphically the game has been improved significantly. This was made possible by the decision to drop the Dreamcast port (see below). The old 3D models have been replaced by new models with a lot more detail. Other improvements include reflections, hardware lighting, new textures, and a new sketch theme by Annie Kirkpatrick.
+
+The GUI has seen many small improvements, such as additional options that could previously only be set from the command line. A new feature is the "easy mode" (for those who felt that our engine Dreamer put up too much of a fight even on Level 1).
+
+DreamChess is now also available for Mac OS X by courtesy of Lawrence Sebald. Unfortunately, we were forced to drop support for Dreamcast and BeOS. If you're interested in picking up these ports, please send an email to feedback at dreamchess.org.
+
+We hope you enjoy this new release!
+
+About DreamChess:
+
+DreamChess (http://www.dreamchess.org) is an open source chess game. Our primary target platforms are Windows, Mac OS X and Linux. DreamChess features 3D OpenGL graphics and provides various chess board sets, ranging from classic wooden to flat figurines.
+
+A moderately strong chess engine is included: Dreamer. However, should this engine be too weak for you, then you can use any other XBoard-compatible chess engine, including the popular Crafty and GNU Chess.
+
+Other features include music, sound effects, on-screen move lists using SAN notation, undo functionality, and savegames in PGN format.
+
+The DreamChess team currently consists of only a handful of people. We could use help in many areas, such as programming, graphics, sound and testing. If you're interested in helping out, please send an email to feedback at dreamchess.org.
