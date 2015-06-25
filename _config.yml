@@ -1,5 +1,7 @@
 name: DreamChess
-
+permalink: /news/:categories/:year/:month/:day/:title.html
+paginate_path: "/news/page:num/"
+paginate: 5
 defaults:
   -
     values:
