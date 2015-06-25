@@ -31,13 +31,7 @@ div#leftcolumn {
 
 div#centercolumn {
 	float: left;
-	width: 612px;
-	padding: 10px;
-}
-
-div#rightcolumn {
-	float: left;
-	width: 150px;
+	width: 782px;
 	padding: 10px;
 }
 

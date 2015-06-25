@@ -1,0 +1,107 @@
+ul.thumbs li {
+	list-style: 		none;
+	float: 				left;
+	display: 			block;
+	list-style-image: 	none !important;
+	margin:				5px 5px 0 5px !important;
+}
+ul.thumbs {
+	list-style: 		none;
+	margin: 			0;
+	padding: 			0;
+	clear: 				both;
+}
+ul.thumbs li img {
+	border:				none;
+	margin:				0 !important;
+}
+ul.thumbs li a {
+	background:			none !important;
+	text-decoration:	none;
+	border: 			0;
+}
+ul.thumbs li p {
+	overflow:			hidden;
+}
+.thumbs .clearboth { 
+	clear: 				both; 
+}
+.childscontainer {
+	margin-bottom:		20px;
+	float:				left;
+}
+.thumbscontainer {
+	margin-bottom:		20px;
+	float:				left;
+}
+.pagenumbers {
+	margin-bottom:		20px;
+}
+.picturecontainer {
+	text-align:			center;
+}
+.picturecontainer .title {
+	font-weight:		bold;
+	margin-top:			20px;
+}
+.picturecontainer .picture img {
+	border:				none;
+	margin:				0 !important;
+}
+.picturecontainer .picture a {
+	background:			none !important;
+	text-decoration:	none;
+	border: 			0;
+}
+.managecontainer {
+    float: 				left;
+}
+.managecontainer textarea {
+	width:				395px;
+}
+.managecontainer hr {
+	width:				400px;
+	text-align: 		left;
+	margin: 			20px auto 20px 0;
+}
+.pictureform .managepicture {
+	float:				left;
+	clear:				left;
+}
+.pictureform .shortfields {
+	margin-left: 		20px;
+	float:				left;
+}
+.pictureform .clearboth {
+	clear:				both;
+}
+.uploadcounter {
+	width: 				20px;
+	margin-bottom: 		10px;
+	float:				left;
+	clear:				left;
+}
+.uploadfile {
+	margin-bottom: 		10px;
+	float:          	none;
+}
+.uploadfile input {
+	width:				385px;	
+}
+.uploadform {
+	margin-top:			20px;
+	margin-bottom:		-10px;
+   	clear: 				both;
+}
+.uploadform .clearboth {
+	clear:				both;
+}
+.slideshowwrapper {
+	text-align:			center;
+}
+.deleteform {
+	float:				left;
+}
+.synchform {
+	float:				left;
+}
