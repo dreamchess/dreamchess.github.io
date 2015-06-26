@@ -1,11 +1,11 @@
 <div class="thumbscontainer">
 	<ul class="thumbs">
-		{% for screenshot in site.data.screenshots %}
+{% for screenshot in site.data.screenshots %}
 		<li>
 			<a href="{{ site.baseurl }}/images/{{ screenshot.image }}" data-lightbox="gallery">
 				<img src="{{ site.baseurl }}/images/{{ screenshot.thumb }}" class="thumbnail" alt="" />
 			</a>
 		</li>
-		{% endfor %}
+{% endfor %}
 	</ul>
 </div>
