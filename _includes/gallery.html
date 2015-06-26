@@ -2,7 +2,7 @@
 	<ul class="thumbs">
 {% for screenshot in site.data.screenshots %}
 		<li>
-			<a href="{{ site.baseurl }}/images/{{ screenshot.image }}" data-lightbox="gallery">
+			<a href="{{ site.baseurl }}/images/{{ screenshot.image }}" rel="lightbox">
 				<img src="{{ site.baseurl }}/images/{{ screenshot.thumb }}" class="thumbnail" alt="" />
 			</a>
 		</li>
