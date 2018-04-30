@@ -4,18 +4,15 @@
 {% assign prefix_url = page.url | prepend: '$' %}
 
 {% for node in pages %}
-  {% assign node_url_base = node.url | remove: 'index.html' %}
   {% assign node_url_parts = node.url | split: '/' %}
   {% assign node_url_parts_size = node_url_parts | size %}
-
-  {% if node_url_parts_size > 2 %}
-    {% assign prefix_node_url = node_url_base | prepend: '$' %}
-  {% else %}
+  {% if node_url_parts_size == 0 %}
     {% assign prefix_node_url = node.url | prepend: '$' %}
+    <li{% if page.url == node.url %} class="here"{% endif %}><a href="{{ node.url }}" title="">{% if node.menu_title %}{{ node.menu_title }}{% else %}{{ node.title }}{% endif %}</a></li>
   {% endif %}
-
-  {% if node_url_parts_size <= 3 %}
-    <li{% if prefix_url contains prefix_node_url %} class="here"{% endif %}><a href="{{ site.baseurl }}{{ node_url_base }}" title="">{% if node.menu_title %}{{ node.menu_title }}{% else %}{{ node.title }}{% endif %}</a></li>
+  {% if node_url_parts_size > 1 and node_url_parts_size < 3 %}
+    {% assign prefix_node_url = node.url | prepend: '$' %}
+    <li{% if prefix_url contains prefix_node_url %} class="here"{% endif %}><a href="{{ node.url }}" title="">{% if node.menu_title %}{{ node.menu_title }}{% else %}{{ node.title }}{% endif %}</a></li>
   {% endif %}
 {% endfor %}
 </ul>

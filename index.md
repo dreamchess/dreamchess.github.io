@@ -11,7 +11,7 @@ Other features include music, sound effects, on-screen move lists using SAN nota
 
 The DreamChess team currently consists of only a handful of people. We could use help in many areas, such as programming, graphics, sound and testing. If you're interested in helping out, please send an email to feedback at dreamchess.org.
 
-##Latest News
+## Latest News
 {% for post in site.posts limit: 3 %}
 {% include post.html %}
 {% endfor %}  
