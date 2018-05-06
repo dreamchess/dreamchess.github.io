@@ -40,10 +40,6 @@ div#menu {
 	color: black;
 }
 
-div#menu a {
-	line-height: 16px;
-}
-
 div#menu ul {
 	list-style-type: none;
 	margin: 0;
@@ -53,15 +49,14 @@ div#menu ul {
 
 div#menu li {
 	display: inline;
-	line-height: 25px;
 }
 
 div#menu li.here {
 	font-weight: bold;
 }
 
-div#menu li:not(:first-child) {
-	margin-left: 20px;
+div#menu li {
+	margin: 0 1em;
 }
 
 div.block {
