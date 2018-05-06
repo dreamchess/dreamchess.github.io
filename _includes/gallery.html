@@ -1,11 +1,15 @@
-<div class="thumbscontainer">
-	<ul class="thumbs">
-{% for screenshot in site.data.screenshots %}
+<div class="gallery">
+	<ul>
+{% for image in site.static_files %}
+  {% if image.path contains site.gallery_path %}
+    {% unless image.path contains site.gallery_thumb_prefix %}
 		<li>
-			<a href="{{ site.baseurl }}/images/{{ screenshot.image }}" rel="lightbox[gallery]">
-				<img src="{{ site.baseurl }}/images/{{ screenshot.thumb }}" class="thumbnail" alt="" />
+			<a href="{{ image.path }}" data-lightbox="dreamchess">
+				<img src="{{ site.gallery_path }}{{ image.basename | prepend: site.gallery_thumb_prefix | append: image.extname }}" alt="">
 			</a>
 		</li>
+    {% endunless %}
+  {% endif %}
 {% endfor %}
 	</ul>
 </div>

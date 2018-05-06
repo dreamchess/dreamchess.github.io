@@ -1,8 +1,11 @@
-name: DreamChess
+title: DreamChess
+theme: false # change to null for github-pages 184
+gallery_path: /assets/images/screenshots/
+gallery_thumb_prefix: tn_
 permalink: /news/:categories/:year/:month/:day/:title.html
-paginate_path: "/news/page:num/"
+paginate_path: /news/page:num/
 paginate: 5
 defaults:
   -
     values:
-      layout: "default"
+      layout: default

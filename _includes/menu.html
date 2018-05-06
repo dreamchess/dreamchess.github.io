@@ -1,18 +1,7 @@
-{% assign pages = site.pages | sort: 'weight' %}
+{% assign menu = site.pages | where_exp: "item", "item.weight != null" | concat: site.data.menu | sort: 'weight' %}
 
-<ul class="topnav">
-{% assign prefix_url = page.url | prepend: '$' %}
-
-{% for node in pages %}
-  {% assign node_url_parts = node.url | split: '/' %}
-  {% assign node_url_parts_size = node_url_parts | size %}
-  {% if node_url_parts_size == 0 %}
-    {% assign prefix_node_url = node.url | prepend: '$' %}
-    <li{% if page.url == node.url %} class="here"{% endif %}><a href="{{ node.url }}" title="">{% if node.menu_title %}{{ node.menu_title }}{% else %}{{ node.title }}{% endif %}</a></li>
-  {% endif %}
-  {% if node_url_parts_size > 1 and node_url_parts_size < 3 %}
-    {% assign prefix_node_url = node.url | prepend: '$' %}
-    <li{% if prefix_url contains prefix_node_url %} class="here"{% endif %}><a href="{{ node.url }}" title="">{% if node.menu_title %}{{ node.menu_title }}{% else %}{{ node.title }}{% endif %}</a></li>
-  {% endif %}
+<ul>
+{% for node in menu %}
+    <li{% if page.url == node.url %} class="here"{% endif %}><a href="{{ node.url }}" title="">{{ node.title }}</a></li>
 {% endfor %}
 </ul>

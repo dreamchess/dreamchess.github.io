@@ -1,7 +1,6 @@
 ---
-title: DreamChess
-menu_title: Home
-weight: 0
+title: About
+author: foo
 ---
 DreamChess is an open source chess game. Our primary target platforms are Windows, Mac OS X and Linux. DreamChess features 3D OpenGL graphics and provides various chess board sets, ranging from classic wooden to flat figurines.
 

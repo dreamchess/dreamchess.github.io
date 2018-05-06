@@ -1,0 +1,8 @@
+-
+  title: News
+  url: /news
+  weight: 10
+-
+  title: Bugs
+  url: https://github.com/dreamchess/dreamchess/issues
+  weight: 40

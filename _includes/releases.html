@@ -1,29 +1,27 @@
 {% assign releases = include.releases | sort: 'created_at' | reverse %}
 
+<h2>{{ include.name }}</h2>
+<div class="block downloads">
 {% for release in releases %}
-<h4>{{ release.name }}{% if release.prerelease %} (<span style="color: red">pre-release</span>){% endif %}</h4>
-<table><tbody><tr><td width="200">
+<h4>{{ release.name }}{% if release.prerelease %} (<span class="prerelease">pre-release</span>){% endif %}</h4>
   {% for asset in release.assets %}
+<a href="{{ asset.browser_download_url }}">
     {% if asset.name contains '.exe' %}
-Windows
+Windows installer
     {% elsif asset.name contains '-dc' %}
-DreamCast
+Dreamcast
     {% elsif asset.name contains '-beos' %}
 BeOS
     {% elsif asset.name contains '.dmg' %}
 Mac OS X
     {% elsif asset.name contains '.tar.gz' %}
-Linux (source code)
+Linux / Source code
     {% elsif asset.name contains '.run' %}
-Linux
+Linux installer
     {% else %}
 Other
     {% endif %}
-<br />
+</a><span class="fileinfo">- {{ asset.size | divided_by: 1000000.0 | round: 1 }}MB .{{ asset.name | split: '.' | last }}</span><br />
   {% endfor %}
-</td><td>
-  {% for asset in release.assets %}
-<a href="{{ asset.browser_download_url }}">{{ asset.name }}</a><br />
-  {% endfor %}
-</td></tr></tbody></table>
 {% endfor %}
+</div>

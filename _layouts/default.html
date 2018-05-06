@@ -1,47 +1,52 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/dreamchess.css" type="text/css" media="screen" />
-	<script src="{{ site.baseurl }}/lightbox/js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
-	<link href="{{ site.baseurl }}/lightbox/css/lightbox.css" type="text/css" rel="stylesheet" />
-	<link href="{{ site.baseurl }}/css/gallery.css" type="text/css" rel="stylesheet" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title != null %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<link rel="stylesheet" type="text/css" href="/assets/css/dreamchess.css">
+<link rel="stylesheet" href="https://use.typekit.net/zdn2cqp.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css">
+{% if page.lightbox %}<link rel="stylesheet" href="/assets/css/lightbox.min.css">{% endif %}
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="DreamChess"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/mstile-310x310.png" />
 </head>
-
 <body>
-<div id="pagewrapper">
-<div id="wrapper">
 <div id="header">
-<img id="headerimage" src="{{ site.baseurl }}/images/logo.png" alt="DreamChess" />
+<a href="/">DreamChess</a>
 </div>
-
-<div id="leftcolumn">
-<h3>Main Menu</h3>
-<div class="dropmenu">
+<div id="menu" class="clearfix">
+<div class="addmargins">
 {% include menu.html %}
 </div>
-<h3>GitHub Menu</h3>
-<div class="dropmenu"><ul class="topnav">
-<li><a href="https://github.com/dreamchess" title="">Project Home</a></li>
-<li class="last"><a href="https://github.com/dreamchess/dreamchess/issues" title="">Bug Tracker</a></li>
-</ul>
 </div>
-{% include paypal.html %}
-</div>
-
-<div id="centercolumn">
-<h2>{{ page.title }}</h2>
+<div class="addmargins">
+<h1>{{ page.title }}</h1>
 {{ content }}
+{% if page.date %}
+{% assign author = site.data.authors[page.author] %}
+<div class="author">posted by {% if author.name %}{{ author.name }}{% else %}Anonymous{% endif %} on <time datetime="{{ page.date }}">{{ page.date | date: '%B %d, %Y' }}</time></div>
+{% endif %}
 </div>
-
-<div id="clear"></div>
-<div id="footer">
-	&copy; Copyright 2006-{{ 'now' | date: "%Y" }} - The DreamChess Project
-</div>
-
-</div>
-</div>
+<a class="github-fork-ribbon" href="https://github.com/dreamchess/dreamchess" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+{% if page.lightbox %}<script src="/assets/js/lightbox-plus-jquery.min.js"></script>{% endif %}
 </body>
 </html>
