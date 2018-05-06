@@ -63,6 +63,7 @@ div.block {
 	border-radius: 15px 50px 30px;
 	border: 0.15em dotted black;
 	padding: 10px 20px;
+	margin-bottom: 2em;
 }
 
 div.downloads {
@@ -113,4 +114,10 @@ div.gallery ul {
 
 a.github-fork-ribbon:before {
 	background-color: #327;
+}
+
+div.more p:last-child:after {
+	font-style: italic;
+	color: #808080;
+	content: " (Read more...)";
 }
