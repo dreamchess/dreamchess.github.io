@@ -110,3 +110,7 @@ div.gallery ul {
 		display: none;
 	}
 }
+
+a.github-fork-ribbon:before {
+	background-color: #327;
+}
