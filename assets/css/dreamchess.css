@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2 {
-	font-family: "marydale", sans-serif;	
+	font-family: "marydale", sans-serif;
 }
 
 a {
@@ -35,8 +35,8 @@ a {
 }
 
 div#menu {
-	border-top: 3px dotted black;
-	border-bottom: 3px dotted black;
+	border-top: 0.15em dotted black;
+	border-bottom: 0.15em dotted black;
 	color: black;
 }
 
@@ -66,8 +66,8 @@ div#menu li:not(:first-child) {
 
 div.block {
     border-radius: 15px 50px 30px;
-    border: 3px dotted black;
-    padding: 10px 20px; 
+    border: 0.15em dotted black;
+    padding: 10px 20px;
 }
 
 div.downloads {
