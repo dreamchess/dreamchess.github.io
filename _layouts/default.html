@@ -4,34 +4,34 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{% if page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/dreamchess.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/dreamchess.css">
 <link rel="stylesheet" href="https://use.typekit.net/zdn2cqp.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css">
-{% if page.lightbox %}<link rel="stylesheet" href="/assets/css/lightbox.min.css">{% endif %}
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="DreamChess"/>
+{% if page.lightbox %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/lightbox.min.css">{% endif %}
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.baseurl }}/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.baseurl }}/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.baseurl }}/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="DreamChess" />
 <meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="/mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="/mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="/mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="/mstile-310x310.png" />
+<meta name="msapplication-TileImage" content="{{ site.baseurl }}/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="{{ site.baseurl }}/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="{{ site.baseurl }}/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="{{ site.baseurl }}/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="{{ site.baseurl }}/mstile-310x310.png" />
 </head>
 <body>
 <div id="header">
-<a href="/">DreamChess</a>
+<a href="{{ site.baseurl }}/">DreamChess</a>
 </div>
 <div id="menu" class="clearfix">
 <div class="addmargins">
@@ -47,6 +47,6 @@
 {% endif %}
 </div>
 <a class="github-fork-ribbon" href="https://github.com/dreamchess/dreamchess" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
-{% if page.lightbox %}<script src="/assets/js/lightbox-plus-jquery.min.js"></script>{% endif %}
+{% if page.lightbox %}<script src="{{ site.baseurl }}/assets/js/lightbox-plus-jquery.min.js"></script>{% endif %}
 </body>
 </html>

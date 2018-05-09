@@ -4,8 +4,8 @@
   {% if image.path contains site.gallery_path %}
     {% unless image.path contains site.gallery_thumb_prefix %}
 		<li>
-			<a href="{{ image.path }}" data-lightbox="dreamchess">
-				<img src="{{ site.gallery_path }}{{ image.basename | prepend: site.gallery_thumb_prefix | append: image.extname }}" alt="">
+			<a href="{{ site.baseurl }}{{ image.path }}" data-lightbox="dreamchess">
+				<img src="{{ site.baseurl}}{{ site.gallery_path }}{{ image.basename | prepend: site.gallery_thumb_prefix | append: image.extname }}" alt="">
 			</a>
 		</li>
     {% endunless %}

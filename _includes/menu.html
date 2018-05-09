@@ -2,6 +2,6 @@
 
 <ul>
 {% for node in menu %}
-    <li{% if page.url contains node.url %} class="here"{% endif %}><a href="{{ node.url }}" title="">{{ node.title }}</a></li>
+    <li{% if page.url contains node.url %} class="here"{% endif %}><a href="{% unless node.url contains '//' %}{{ site.baseurl }}{% endunless %}{{ node.url }}" title="">{{ node.title }}</a></li>
 {% endfor %}
 </ul>
