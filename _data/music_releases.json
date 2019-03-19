@@ -39,7 +39,7 @@
         "id": 661169,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTE2OQ==",
         "name": "dreamchess-music-1.0-win32.exe",
-        "label": null,
+        "label": "Windows installer",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -65,7 +65,7 @@
         "size": 74356948,
         "download_count": 1302,
         "created_at": "2015-06-22T21:34:15Z",
-        "updated_at": "2015-06-22T21:36:54Z",
+        "updated_at": "2019-03-19T08:46:39Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess-music/releases/download/1.0/dreamchess-music-1.0-win32.exe"
       },
       {
@@ -73,7 +73,7 @@
         "id": 10552495,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDEwNTUyNDk1",
         "name": "DreamChess-Music-1.0.pkg",
-        "label": null,
+        "label": "macOS package",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -99,7 +99,7 @@
         "size": 74314790,
         "download_count": 0,
         "created_at": "2019-01-13T22:28:47Z",
-        "updated_at": "2019-01-13T22:30:00Z",
+        "updated_at": "2019-03-19T08:47:12Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess-music/releases/download/1.0/DreamChess-Music-1.0.pkg"
       },
       {
@@ -107,7 +107,7 @@
         "id": 661164,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTE2NA==",
         "name": "dreamchess-music-1.0.run.tar",
-        "label": null,
+        "label": "Linux installer",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -133,7 +133,7 @@
         "size": 74229760,
         "download_count": 1039,
         "created_at": "2015-06-22T21:31:26Z",
-        "updated_at": "2015-06-22T21:34:07Z",
+        "updated_at": "2019-03-19T08:47:37Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess-music/releases/download/1.0/dreamchess-music-1.0.run.tar"
       }
     ],

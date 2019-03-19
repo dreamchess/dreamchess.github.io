@@ -5,37 +5,7 @@
 {% for release in releases %}
 <h4>{{ release.name }}{% if release.prerelease %} (<span class="prerelease">pre-release</span>){% endif %}</h4>
   {% for asset in release.assets %}
-<a href="{{ asset.browser_download_url }}">
-    {% if asset.name contains '.exe' %}
-Windows (installer)
-    {% elsif asset.name contains '-win32' and asset.name contains '.msi' %}
-Windows 10/8/7 32-bit (installer)
-    {% elsif asset.name contains '-win64' and asset.name contains '.msi' %}
-Windows 10/8/7 64-bit (installer)
-    {% elsif asset.name contains '-win32' and asset.name contains '.zip' %}
-Windows 10/8/7 32-bit
-    {% elsif asset.name contains '-win64' and asset.name contains '.zip' %}
-Windows 10/8/7 64-bit
-    {% elsif asset.name contains '-macOS' %}
-macOS 10.11 or later
-    {% elsif asset.name contains '-dc' %}
-Dreamcast
-    {% elsif asset.name contains '-beos' %}
-BeOS
-    {% elsif asset.name contains '.zip' %}
-Windows
-    {% elsif asset.name contains '.dmg' %}
-macOS
-    {% elsif asset.name contains '.pkg' %}
-macOS (installer)
-    {% elsif asset.name contains '.tar.gz' %}
-Source code / Linux
-    {% elsif asset.name contains '.run' %}
-Linux (installer)
-    {% else %}
-Other
-    {% endif %}
-</a><span class="fileinfo">- {{ asset.size | divided_by: 1000000.0 | round: 1 }}MB .{{ asset.name | split: '.' | last }}</span><br />
+<a href="{{ asset.browser_download_url }}">{{ asset.label }}</a> <span class="fileinfo">({{ asset.size | divided_by: 1000000.0 | round: 1 }}MB)</span><br />
   {% endfor %}
   {% unless release.name contains 'Music' or release.tag_name contains '0.1.' or release.tag_name contains '0.2.' %}
   <a href="{{ release.zipball_url }}">Source code (zip)</a><br />

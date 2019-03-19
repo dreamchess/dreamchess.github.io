@@ -39,7 +39,7 @@
         "id": 11600674,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDExNjAwNjc0",
         "name": "DreamChess-0.3.0-macOS.dmg",
-        "label": "",
+        "label": "macOS 10.11+",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -65,7 +65,7 @@
         "size": 10325224,
         "download_count": 2,
         "created_at": "2019-03-18T20:36:17Z",
-        "updated_at": "2019-03-18T20:36:18Z",
+        "updated_at": "2019-03-19T08:35:53Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.3.0/DreamChess-0.3.0-macOS.dmg"
       },
       {
@@ -73,7 +73,7 @@
         "id": 11600601,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDExNjAwNjAx",
         "name": "DreamChess-0.3.0-win32.msi",
-        "label": "",
+        "label": "Windows 10/8/7 32-bit installer",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -99,7 +99,7 @@
         "size": 10583304,
         "download_count": 2,
         "created_at": "2019-03-18T20:29:51Z",
-        "updated_at": "2019-03-18T20:29:53Z",
+        "updated_at": "2019-03-19T08:37:10Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.3.0/DreamChess-0.3.0-win32.msi"
       },
       {
@@ -107,7 +107,7 @@
         "id": 11600603,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDExNjAwNjAz",
         "name": "DreamChess-0.3.0-win32.zip",
-        "label": "",
+        "label": "Windows 10/8/7 32-bit zip",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -131,9 +131,9 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 11370632,
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2019-03-18T20:29:53Z",
-        "updated_at": "2019-03-18T20:29:54Z",
+        "updated_at": "2019-03-19T08:37:56Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.3.0/DreamChess-0.3.0-win32.zip"
       },
       {
@@ -141,7 +141,7 @@
         "id": 11601025,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDExNjAxMDI1",
         "name": "DreamChess-0.3.0-win64.msi",
-        "label": "",
+        "label": "Windows 10/8/7 64-bit installer",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -167,7 +167,7 @@
         "size": 10775656,
         "download_count": 2,
         "created_at": "2019-03-18T20:59:34Z",
-        "updated_at": "2019-03-18T20:59:35Z",
+        "updated_at": "2019-03-19T08:38:27Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.3.0/DreamChess-0.3.0-win64.msi"
       },
       {
@@ -175,7 +175,7 @@
         "id": 11601026,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDExNjAxMDI2",
         "name": "DreamChess-0.3.0-win64.zip",
-        "label": "",
+        "label": "Windows 10/8/7 64-bit zip",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -199,9 +199,9 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 11560647,
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2019-03-18T20:59:35Z",
-        "updated_at": "2019-03-18T20:59:36Z",
+        "updated_at": "2019-03-19T08:38:51Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.3.0/DreamChess-0.3.0-win64.zip"
       }
     ],
@@ -249,7 +249,7 @@
         "id": 4643475,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDQ2NDM0NzU=",
         "name": "dc-toolchain-builder-0.2.tar.gz",
-        "label": null,
+        "label": "Dreamcast toolchain builder",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -275,7 +275,7 @@
         "size": 61440,
         "download_count": 4,
         "created_at": "2017-08-22T14:41:24Z",
-        "updated_at": "2017-08-22T14:41:26Z",
+        "updated_at": "2019-03-19T08:07:35Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.1.0/dc-toolchain-builder-0.2.tar.gz"
       },
       {
@@ -283,7 +283,7 @@
         "id": 4643476,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDQ2NDM0NzY=",
         "name": "dreamcast-libs-0.7.tar.gz",
-        "label": null,
+        "label": "Dreamcast libraries source code",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -307,9 +307,9 @@
         "content_type": "application/x-gzip",
         "state": "uploaded",
         "size": 1286739,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2017-08-22T14:41:24Z",
-        "updated_at": "2017-08-22T14:41:33Z",
+        "updated_at": "2019-03-19T08:10:53Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.1.0/dreamcast-libs-0.7.tar.gz"
       },
       {
@@ -317,7 +317,7 @@
         "id": 661088,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTA4OA==",
         "name": "dreamchess-0.1.0-beos.pkg",
-        "label": null,
+        "label": "BeOS package",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -343,7 +343,7 @@
         "size": 4685556,
         "download_count": 168,
         "created_at": "2015-06-22T20:56:53Z",
-        "updated_at": "2015-06-22T20:57:03Z",
+        "updated_at": "2019-03-19T08:27:20Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.1.0/dreamchess-0.1.0-beos.pkg"
       },
       {
@@ -351,7 +351,7 @@
         "id": 661090,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTA5MA==",
         "name": "dreamchess-0.1.0-dc-nero.zip",
-        "label": null,
+        "label": "Dreamcast Nero disc image",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -377,7 +377,7 @@
         "size": 4931789,
         "download_count": 155,
         "created_at": "2015-06-22T20:57:21Z",
-        "updated_at": "2015-06-22T20:57:36Z",
+        "updated_at": "2019-03-19T08:22:25Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.1.0/dreamchess-0.1.0-dc-nero.zip"
       },
       {
@@ -385,7 +385,7 @@
         "id": 661089,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTA4OQ==",
         "name": "dreamchess-0.1.0-dc-plainfiles.zip",
-        "label": null,
+        "label": "Dreamcast plain files",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -411,7 +411,7 @@
         "size": 4562932,
         "download_count": 126,
         "created_at": "2015-06-22T20:57:08Z",
-        "updated_at": "2015-06-22T20:57:18Z",
+        "updated_at": "2019-03-19T08:19:05Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.1.0/dreamchess-0.1.0-dc-plainfiles.zip"
       },
       {
@@ -419,7 +419,7 @@
         "id": 661087,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTA4Nw==",
         "name": "dreamchess-0.1.0-win32.exe",
-        "label": null,
+        "label": "Windows installer",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -445,7 +445,7 @@
         "size": 4585852,
         "download_count": 893,
         "created_at": "2015-06-22T20:56:37Z",
-        "updated_at": "2015-06-22T20:56:48Z",
+        "updated_at": "2019-03-19T08:24:01Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.1.0/dreamchess-0.1.0-win32.exe"
       },
       {
@@ -453,7 +453,7 @@
         "id": 661086,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTA4Ng==",
         "name": "dreamchess-0.1.0.tar.gz",
-        "label": null,
+        "label": "Source code / Linux",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -479,7 +479,7 @@
         "size": 4018824,
         "download_count": 592,
         "created_at": "2015-06-22T20:56:18Z",
-        "updated_at": "2015-06-22T20:56:28Z",
+        "updated_at": "2019-03-19T08:24:51Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.1.0/dreamchess-0.1.0.tar.gz"
       }
     ],
@@ -527,7 +527,7 @@
         "id": 661053,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTA1Mw==",
         "name": "dreamchess-0.2.0-win32.exe",
-        "label": null,
+        "label": "Windows installer",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -551,9 +551,9 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 6677097,
-        "download_count": 29468,
+        "download_count": 29470,
         "created_at": "2015-06-22T20:36:31Z",
-        "updated_at": "2015-06-22T20:36:46Z",
+        "updated_at": "2019-03-19T08:29:10Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.2.0/dreamchess-0.2.0-win32.exe"
       },
       {
@@ -561,7 +561,7 @@
         "id": 661054,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTA1NA==",
         "name": "DreamChess-0.2.0.dmg",
-        "label": null,
+        "label": "macOS",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -587,7 +587,7 @@
         "size": 5931691,
         "download_count": 2504,
         "created_at": "2015-06-22T20:36:54Z",
-        "updated_at": "2015-06-22T20:37:08Z",
+        "updated_at": "2019-03-19T08:29:49Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.2.0/DreamChess-0.2.0.dmg"
       },
       {
@@ -595,7 +595,7 @@
         "id": 661052,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MTA1Mg==",
         "name": "dreamchess-0.2.0.tar.gz",
-        "label": null,
+        "label": "Source code / Linux",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -621,7 +621,7 @@
         "size": 5458328,
         "download_count": 3507,
         "created_at": "2015-06-22T20:36:10Z",
-        "updated_at": "2015-06-22T20:36:23Z",
+        "updated_at": "2019-03-19T08:30:16Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.2.0/dreamchess-0.2.0.tar.gz"
       }
     ],
@@ -669,7 +669,7 @@
         "id": 660790,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MDc5MA==",
         "name": "dreamchess-0.2.1-RC2.tar.gz",
-        "label": null,
+        "label": "Source code / Linux",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -693,9 +693,9 @@
         "content_type": "application/x-gzip",
         "state": "uploaded",
         "size": 6164439,
-        "download_count": 6980,
+        "download_count": 6981,
         "created_at": "2015-06-22T18:32:56Z",
-        "updated_at": "2015-06-22T18:33:11Z",
+        "updated_at": "2019-03-19T08:33:49Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.2.1-RC2/dreamchess-0.2.1-RC2.tar.gz"
       }
     ],
@@ -743,7 +743,7 @@
         "id": 660786,
         "node_id": "MDEyOlJlbGVhc2VBc3NldDY2MDc4Ng==",
         "name": "dreamchess-0.2.1-RC1.tar.gz",
-        "label": null,
+        "label": "Source code / Linux",
         "uploader": {
           "login": "waltervn",
           "id": 615114,
@@ -769,7 +769,7 @@
         "size": 5754483,
         "download_count": 875,
         "created_at": "2015-06-22T18:31:43Z",
-        "updated_at": "2015-06-22T18:31:57Z",
+        "updated_at": "2019-03-19T08:34:21Z",
         "browser_download_url": "https://github.com/dreamchess/dreamchess/releases/download/0.2.1-RC1/dreamchess-0.2.1-RC1.tar.gz"
       }
     ],
