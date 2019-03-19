@@ -4,7 +4,7 @@
 <div class="block downloads">
 {% for release in releases %}
   {% unless release.prerelease %}
-  <h4>{{ release.name }} <span class="fileinfo">({{ release.created_at | date_to_long_string }})</span></h4>
+  <h4>{{ release.name }} <span class="fileinfo">(<time datetime="{{ release.created_at | date: '%Y-%m-%d' }}">{{ release.created_at | date: '%B %d, %Y' }}</time>)</span></h4>
     {% for asset in release.assets %}
   <a href="{{ asset.browser_download_url }}">{{ asset.label }}</a> <span class="fileinfo">({{ asset.size | divided_by: 1000000.0 | round: 1 }} MB)</span><br />
     {% endfor %}
