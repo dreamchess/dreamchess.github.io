@@ -1,5 +1,5 @@
 title: DreamChess
-theme: false # change to null for github-pages 184
+theme: null
 gallery_path: /assets/images/screenshots/
 gallery_thumb_prefix: tn_
 permalink: /news/:categories/:year/:month/:day/:title.html

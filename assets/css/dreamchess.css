@@ -1,5 +1,5 @@
 body {
-	font-family: "myriad-pro", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 16px;
 	color: black;
 	margin: 0 0 40px;
@@ -13,14 +13,14 @@ body {
 }
 
 #header {
-	font-family: "marydale", sans-serif;
+	font-family: "Shadows Into Light Two", cursive;
 	font-size: 80px;
 	font-weight: bold;
 	text-align: center;
 }
 
 h1, h2 {
-	font-family: "marydale", sans-serif;
+	font-family: "Shadows Into Light Two", cursive;
 }
 
 a {
