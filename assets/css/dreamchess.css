@@ -66,6 +66,10 @@ div.block {
 	margin-bottom: 2em;
 }
 
+div.block a:hover {
+	text-decoration: underline;
+}
+
 div.downloads {
 	padding-bottom: 30px;
 }
