@@ -6,3 +6,7 @@
   title: Bugs
   url: https://github.com/dreamchess/dreamchess/issues
   weight: 40
+-
+  title: Translations
+  url: https://hosted.weblate.org/projects/dreamchess/dreamchess
+  weight: 45
