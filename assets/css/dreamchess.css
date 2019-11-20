@@ -115,9 +115,3 @@ div.gallery ul {
 a.github-fork-ribbon:before {
 	background-color: #327;
 }
-
-div.more p:last-child:after {
-	font-style: italic;
-	color: #808080;
-	content: " (Read more...)";
-}
