@@ -1,6 +1,6 @@
 {% assign author = site.data.authors[post.author] %}
 <div class="block{% if post.excerpt != post.content %} more{% endif %}">
-	<a href="{{ site.baseurl }}{{ post.url }}"><h4>{{ post.title }}</h4>
-	{{ post.excerpt }}</a>
+	<a href="{{ site.baseurl }}{{ post.url }}"><h4>{{ post.title }}</h4></a>
+	{{ post.excerpt }}
 	<div class="author">posted by {% if author and author.name %}{{ author.name }}{% else %}Anonymous{% endif %} on <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%B %d, %Y' }}</time></div>
 </div>
